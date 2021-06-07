@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paginação</title>
+</head>
+<style>
+    .pagination {
+  display: inline-block;
+}
+
+.pagination a {
+  color: black;
+  float: left;
+  padding: 6px 14px;
+  text-decoration-color: black;
+  transition: background-color .3s;
+  border: 2px solid rgb(218, 149, 149);
+}
+
+.pagination a.active {
+  background-color: #6f3a88;
+  color: white;
+  border: 1px solid #b1228d;
+}
+
+.pagination a:hover:not(.active) {background-color: rgba(185, 92, 92, 0.822);}
+</style>
+
+<body>
+   
+<h2>Paginação</h2>
+
+<div class="pagination">
+  <a href="#">&laquo;</a>
+  <a href="#">1</a>
+  <a href="#">2</a>
+  <a href="#">3</a>
+  <a href="#">4</a>
+  <a href="#">5</a>
+  <a href="#">&raquo;</a>
+</div>
+ 
+</body>
+</html>
